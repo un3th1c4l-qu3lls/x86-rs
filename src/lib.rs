@@ -1,18 +1,5 @@
 #![no_std]
 
-/*
-
-// Should make separate crate for cpuid parsing and leaf definitions
-        // please do
-        // for leaf, subleaf support, check cpuid crate plz xD
-        NOTE : there was a 16 bit protected mode...
-        pub const GATE_16_INTERRUPT: u8 = 0x06;
-pub const GATE_16_TRAP: u8 = 0x07;
-
-pub const TSS_16_AVAILABLE: u8 = 0x01; // 0b00001
-            pub const TSS_16_BUSY: u8 = 0x03; // 0b00011
-*/
-
 pub mod word {
     /*!
     # .code16
